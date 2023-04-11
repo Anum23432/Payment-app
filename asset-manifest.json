@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Anum23432.github.io/Payment-app/static/css/main.acdf591b.css",
+    "main.js": "/Anum23432.github.io/Payment-app/static/js/main.d1b9077d.js",
+    "static/js/787.4807b038.chunk.js": "/Anum23432.github.io/Payment-app/static/js/787.4807b038.chunk.js",
+    "static/media/1.png": "/Anum23432.github.io/Payment-app/static/media/1.66d5511d745ed9f97762.png",
+    "index.html": "/Anum23432.github.io/Payment-app/index.html",
+    "main.acdf591b.css.map": "/Anum23432.github.io/Payment-app/static/css/main.acdf591b.css.map",
+    "main.d1b9077d.js.map": "/Anum23432.github.io/Payment-app/static/js/main.d1b9077d.js.map",
+    "787.4807b038.chunk.js.map": "/Anum23432.github.io/Payment-app/static/js/787.4807b038.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acdf591b.css",
+    "static/js/main.d1b9077d.js"
+  ]
+}
