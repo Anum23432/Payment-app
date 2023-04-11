@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    position: relative;
+    width:100%;
+    height:90px;
+    background-color:rgb(34, 32, 29);
+}
+h1{
+    
+    position:absolute;
+    top:25px;
+    left:25px;
+    color:rgb(252, 249, 245);
+}
+.close{
+    position:absolute;
+    color:rgb(252, 249, 245) ;
+    top:32px;
+    left:90%;
+    cursor:pointer;
+}
+.obj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-object{
+    position:relative;
+    width:50%;
+    height:80px;
+    box-shadow: 0 0 3px 0 rgb(184, 184, 184);
+    border-radius: 7px;
+    background-color: rgba(211, 211, 211, 0.212);
+    
+}
+.john{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color:rgba(218, 218, 218, 0.342) ;
+     border-radius: 50px;
+     color:black;
+     width:45px;
+     height:45px;
+     font-weight: bolder;
+     position: absolute;
+     left:5%;
+     top:20%;
+}
+.detail{
+    position:absolute;
+    left:20%;
+    top:22%;
+    font-weight: bolder;
+    
+}
+p{
+    margin-top: 2px;
+}
+.logout{
+    position: absolute;
+    left:82%;
+    top:28%;
+    padding:10px;
+    border-radius: 5px;
+    background-color:rgba(218, 218, 218, 0.342) ;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+h2{
+    margin-left: 25px;
+}
+.select{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.service{
+    position:relative;
+    width:50%;
+    height:120px;
+    box-shadow: 0 0 3px 0 rgb(184, 184, 184);
+    border-radius: 7px;
+}
+img{
+    position: absolute;
+    top:30px;
+    left:30px;
+    height:60px;
+    width:60px;
+    border-radius: 7px;
+}
+.lesson{
+    position: absolute;
+    top:15px;
+    left:20%;
+}
+.title{
+    font-weight: bold;
+    
+}
+.text-muted{
+    color:grey;
+    font-size:10px;
+    margin:8px;
+    
+    
+}
+.icon{
+    position: absolute;
+    top:50px;
+    left:-5px;
+}
+.icons{
+    position: absolute;
+    top:29px;
+    left:-5px;
+}
+.price{
+    font-weight: bold;
+}
+.form{
+    position: relative;
+    margin:20px;
+}
+.label1{
+    position: absolute;
+    left:23px;
+    font-weight: bold;
+
+}
+.label2{
+    position: absolute;
+    left:23px;
+    top:55px;
+    font-weight: bold;
+}
+.input1{
+    position:absolute;
+    top:25px;
+    left:25%;
+    padding:10px;
+    width:50%;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 0 0 3px 0 rgb(184, 184, 184);
+    
+}
+.input2{
+    position:absolute;
+    top:85px;
+    left:25%;
+    padding:10px;
+    width:50%;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 0 0 3px 0 rgb(184, 184, 184);
+}
+.head1{
+    color:black;
+    margin-left: 27px;
+    font-size: 25px;
+}
+.btn{
+    margin-left: 25%;
+}
+.cash{
+   margin:10px;
+   padding:10px 25px;
+   border:none;
+   background-color:rgba(218, 218, 218, 0.342) ; 
+   border-radius: 5px;
+   transition: 1s ;
+   font-weight: bold;
+   color:rgb(48, 47, 47);
+   
+}
+button.cash:hover{
+    background-color: white;
+    box-shadow: 0 0 5px 0 grey;
+    cursor: pointer;
+}
+.bank{
+    margin:10px;
+    padding:10px 25px; 
+    border:none;
+   background-color:rgba(218, 218, 218, 0.342) ;
+   border-radius: 5px;
+   transition: 1s ;
+   font-weight: bold;
+   color:rgb(48, 47, 47);
+}
+button.bank:hover{
+    background-color: white;
+    box-shadow: 0 0 5px 0 grey;
+    cursor: pointer;
+}
+.credit{
+    margin:10px;
+    padding:10px 25px; 
+    border:none;
+   background-color:rgba(218, 218, 218, 0.342) ;
+   border-radius: 5px;
+   font-weight: bold;
+   color:rgb(48, 47, 47);
+   transition: 1s;
+}
+button.credit:hover{
+    background-color: white;
+    box-shadow: 0 0 5px 0 grey;
+    cursor: pointer;
+}
+.lorem{
+    margin-left: 25%;
+}
+.box{
+    margin:15px;
+    border:1px grey;
+    box-shadow: 0 0 1px 0 grey;
+    padding: 10px 10px;
+}
+.check{
+    font-size: 12px;
+    color:grey;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 26%;
+}
+.previous{
+    font-weight: bold;
+    cursor:pointer;
+}
+.next{
+    margin-left:55%;
+    padding:9px 30px;
+    border-radius: 5px;
+    background-color: rgb(67, 67, 248);
+    color:white;
+    font-weight: bold;
+    border:none;
+}
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    h1{
+        position: absolute;
+        top:30px;
+        right:8px;
+        font-size: 22px;
+    }
+    .close{
+        position:absolute;
+        color:rgb(252, 249, 245) ;
+        top:34px;
+        left:88%;
+        cursor:pointer;
+    }
+    .card-object{
+        position:relative;
+        width:90%;
+        
+    }
+    .john{
+         width:40px;
+         height:40px;
+         font-weight: bolder;
+         position: absolute;
+         left:5%;
+         top:25%;
+    }
+    .detail{
+        position:absolute;
+        left:24%;
+        top:22%;
+        font-size: 16px;  
+    }
+    .logout{
+        position: absolute;
+        left:72%;
+        top:28%;
+        font-size: 15px;
+    }
+    .service{
+        width:90%;
+    }
+    img{
+        position: absolute;
+        top:30px;
+        left:20px;
+        height:60px;
+        width:60px;
+        border-radius: 7px;
+    }
+    .lesson{
+        position: absolute;
+        top:15px;
+        left:35%;
+    }
+    .form{
+        position: relative;
+        margin:8px;
+    }
+    .label1{
+        position: absolute;
+        left:8px;
+    }
+    .label2{
+        position: absolute;
+        left:8px;
+        top:80px;
+    }
+    .input1{
+        position:absolute;
+        top:30px;
+        left:9px;
+        padding:10px;
+        width:95%;
+       
+        
+    }
+    .input2{
+        position:absolute;
+        top:110px;
+        left:9px;
+        padding:10px;
+        width:95%;
+        
+    }
+    .head1{
+        margin: 20px;
+        font-size:19px;
+    }
+    .btn{
+        margin-left: 15px;
+    }
+    .cash{
+       margin:10px;
+       padding:10px 50px;
+       
+    }
+    
+    .bank{
+        margin:10px;
+        padding:10px 50px; 
+    
+    }
+    
+    .credit{
+        margin:10px;
+        padding:10px 50px; 
+       
+    }
+    .lorem{
+        margin-left: 15px;
+    }
+    .box{
+        margin:15px;
+        border:1px grey;
+        box-shadow: 0 0 1px 0 grey;
+        padding: 10px 10px;
+    }
+    .check{
+        font-size: 12px;
+        color:grey;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+    .previous{
+        font-weight: bold;
+        cursor:pointer;
+    }
+    .next{
+        margin-left:50%;
+        padding:9px 30px;
+        border-radius: 5px;
+        background-color: rgb(67, 67, 248);
+        color:white;
+        font-weight: bold;
+        border:none;
+    }
+    
+    }
+    
+   
+  
